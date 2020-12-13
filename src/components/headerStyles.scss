@@ -34,3 +34,11 @@
 .button-header.type-header.type-header:hover:after {
     transform: scale(1);
 }
+
+.appBar{
+    background-Color: rgb(51, 51, 53);
+}
+
+.MuiAppBar-colorPrimary{
+    background-Color: rgb(51, 51, 53) !important;
+}

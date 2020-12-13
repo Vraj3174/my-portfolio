@@ -45,7 +45,7 @@ export default function Header() {
 
     return (
         <div className={classes.root}>
-            <AppBar position="fixed" className={classes[navRef.current]}>
+            <AppBar position="fixed" className="appBar">
                 <Toolbar>
                     <Typography variant="h5" className={classes.title}>
                         <form>

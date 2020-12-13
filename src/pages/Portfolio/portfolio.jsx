@@ -2,12 +2,12 @@ import React from "react";
 import "./portfolioStyles.scss";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
-import TTC from "../../../public/images/TTC.png";
-import SuperWorld from "../../../public/images/SuperWorld.png";
-import Waterloo from "../../../public/images/UniversityOfWaterloo.jpg"
-import Celavent from "../../../public/images/Celavent.png";
-import theNotesApp from "../../../public/images/theNotesApp.jpeg"
-import Contacts from "../../../public/images/Contacts.png";
+import TTC from "./images/TTC.png";
+import SuperWorld from "./images/SuperWorld.png";
+import Waterloo from "./images/UniversityOfWaterloo.jpg"
+import Celavent from "./images/Celavent.png";
+import theNotesApp from "./images/theNotesApp.jpeg"
+import Contacts from "./images/Contacts.png";
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';

@@ -8,11 +8,15 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
+        flexDirection: 'column',
         margin: '10%',
     },
     title: {
         flexGrow: 1,
         color: 'black'
+    },
+    links: {
+        flexGrow: 1,
     },
     appBarTransparent: {
         backgroundColor: 'rgb(51, 51, 53)'
@@ -52,7 +56,7 @@ export default function Header() {
                             <button formAction="/" className="button-header type-header">Home</button>
                         </form>
                     </Typography>
-                    <form>
+                    <form className={classes.links}>
                         <button formAction="/About-Me/aboutMe" className="button-header type-header">About Me</button>
                         <button formAction="/Portfolio/portfolio" className="button-header type-header">Portfolio</button>
                         <button formAction="/Contact-Me/contactMe" className="button-header type-header">Contact Me</button>

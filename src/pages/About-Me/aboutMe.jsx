@@ -143,7 +143,7 @@ export default function About() {
                                     <Typography variant="h1"><span className="icon"><SiNextDotJs/></span></Typography>
                                     <h3>
                                         Developed a web applications with C.R.U.D. functionality
-                                        using Mongodb.
+                                        with Mongodb.
                                     </h3>
                                 </div>
                             </Fade>

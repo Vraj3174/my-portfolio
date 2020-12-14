@@ -48,21 +48,21 @@ export default function Header() {
     }, [])
 
     return (
-        <div className={classes.root}>
-            <AppBar position="fixed" className="appBar">
-                <Toolbar>
-                    <Typography variant="h5" className={classes.title}>
-                        <form>
-                            <button formAction="/" className="button-header type-header">Home</button>
+            <div className={classes.root}>
+                <AppBar position="fixed" className="appBar">
+                    <Toolbar>
+                        <Typography variant="h5" className={classes.title}>
+                            <form>
+                                <button formAction="/" className="button-header type-header">Home</button>
+                            </form>
+                        </Typography>
+                        <form className={classes.links}>
+                            <button formAction="/About-Me/aboutMe" className="button-header type-header">About Me</button>
+                            <button formAction="/Portfolio/portfolio" className="button-header type-header">Portfolio</button>
+                            <button formAction="/Contact-Me/contactMe" className="button-header type-header">Contact Me</button>
                         </form>
-                    </Typography>
-                    <form className={classes.links}>
-                        <button formAction="/About-Me/aboutMe" className="button-header type-header">About Me</button>
-                        <button formAction="/Portfolio/portfolio" className="button-header type-header">Portfolio</button>
-                        <button formAction="/Contact-Me/contactMe" className="button-header type-header">Contact Me</button>
-                    </form>
-                </Toolbar>
-            </AppBar>
-        </div >
-    );
+                    </Toolbar>
+                </AppBar>
+            </div >
+    )
 }

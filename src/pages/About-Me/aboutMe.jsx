@@ -13,7 +13,7 @@ import {FiMail} from 'react-icons/fi';
 export default function About() {
     
     return (
-        <>
+        <>  
             <Header/>
             <div className="secion" id="about">
                 <div className="container">

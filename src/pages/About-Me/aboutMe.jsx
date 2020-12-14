@@ -2,7 +2,7 @@ import React from "react";
 import "./aboutMeStyles.scss";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
-import VrajPatel from "./images/VrajPatel.png";
+import VrajPatel from "../../../static/images/VrajPatel.png";
 import Fade from "react-reveal/Fade";
 import Typography from '@material-ui/core/Typography';
 import {FaReact, FaGithub, FaNode, FaLinkedin, FaHtml5, FaPython} from 'react-icons/fa';

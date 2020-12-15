@@ -24,6 +24,9 @@ export default function Contact() {
                     <label>Email <input type="email" name="email" id="email" placeholder="Your E-mail"/></label>
                 </p>
                 <p>
+                    <label>Message <input type="info" name="info" id="info" placeholder="Your Message"/></label>
+                </p>
+                <p>
                     <button type="submit">Send</button>
                 </p>
             </form>

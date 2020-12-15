@@ -9,25 +9,21 @@ export default function Contact() {
             <Header/>
             <form 
                 method="post"
-                name="Contact Me"   
+                name="contact"   
                 data-netlify="true"
                 data-netlify-honeypot="true"
-                netlify
             >
                 <p>
                     <label>
                         Name 
-                        <input type="text" name="name" placeholder="Your Name"/>
+                        <input type="text" name="name" id="name" placeholder="Your Name"/>
                     </label>
                 </p>
-                {/* <p>
-                    <label>
-                        Email 
-                        <input type="email" name="email" id="email" placeholder="Your E-mail"/>
-                    </label>
-                </p> */}
                 <p>
-                    <button>Send</button>
+                    <label>Email <input type="email" name="email" id="email" placeholder="Your E-mail"/></label>
+                </p>
+                <p>
+                    <button type="submit">Send</button>
                 </p>
             </form>
             <Footer/>

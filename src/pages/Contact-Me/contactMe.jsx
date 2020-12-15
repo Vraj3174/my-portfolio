@@ -17,7 +17,7 @@ export default function Contact() {
                 <p>
                     <label>
                         Name 
-                        <input type="text" name="name" id="name" placeholder="Your Name"/>
+                        <input type="text" name="name" placeholder="Your Name"/>
                     </label>
                 </p>
                 {/* <p>

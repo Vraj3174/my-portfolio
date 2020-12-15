@@ -12,7 +12,7 @@ export default function Contact() {
             <div className="container">
                 <div className="container-contact">
                     <div className="container">
-                        <IoMdContact size="20%" className="icon"/>
+                        <IoMdContact size="15%" className="icon"/>
                         <h1 className="name">Contact Me</h1>
                     </div>
 

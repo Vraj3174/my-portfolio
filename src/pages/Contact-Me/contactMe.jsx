@@ -2,6 +2,7 @@ import React from "react";
 import "./contactMeStyles.scss";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
+import { IoMdContact } from 'react-icons/Io';
 
 export default function Contact() {
     return(
@@ -10,8 +11,9 @@ export default function Contact() {
             <br/>
             <div className="container">
                 <div className="container-contact">
-                    <div>
-                        <h1 className="name">Contact Form</h1>
+                    <div className="container">
+                        <IoMdContact size="20%" className="icon"/>
+                        <h1 className="name">Contact Me</h1>
                     </div>
 
                     <form 

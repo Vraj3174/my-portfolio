@@ -12,6 +12,7 @@ export default function Contact() {
                 name="contact"   
                 data-netlify="true"
                 data-netlify-honeypot="true"
+                onSubmit="submit"
             >
                 <p>
                     <label>

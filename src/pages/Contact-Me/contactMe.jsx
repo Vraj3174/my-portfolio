@@ -11,7 +11,6 @@ export default function Contact() {
                   name="contact"   
                   data-netlify="true"
                   data-netlify-honeypot="true"
-                  netlify
             >
                 <p>
                     <label>
@@ -19,12 +18,12 @@ export default function Contact() {
                         <input type="text" name="name" id="name" placeholder="Your Name"/>
                     </label>
                 </p>
-                <p>
+                {/* <p>
                     <label>
                         Email 
                         <input type="email" name="email" id="email" placeholder="Your E-mail"/>
                     </label>
-                </p>
+                </p> */}
                 <p>
                     <button type="submit">Send</button>
                 </p>

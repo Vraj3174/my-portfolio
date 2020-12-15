@@ -35,76 +35,78 @@ export default function Contact() {
     return(
         <>
             <Header/>
-            <Container component="main" maxWidth="xs">
-                <CssBaseline />
-                <div className={classes.paper}>
-                    <form 
-                        className={classes.form}
-                        method="post"
-                        name="contact"   
-                        data-netlify="true"
-                        onSubmit="submit"
-                    >
-                    <input type="hidden" name="form-name" value="contact"/>
-                    <Grid container spacing={2}>
-                        <Grid item xs={12} sm={6}>
-                        <TextField
-                            autoComplete="fname"
-                            name="firstName"
-                            variant="outlined"
-                            required
-                            fullWidth
-                            id="firstName"
-                            label="First Name"
-                        />
+            <div className="container">
+                <Container component="main" maxWidth="xs">
+                    <CssBaseline />
+                    <div className={classes.paper}>
+                        <form 
+                            className={classes.form}
+                            method="post"
+                            name="contact"   
+                            data-netlify="true"
+                            onSubmit="submit"
+                        >
+                        <input type="hidden" name="form-name" value="contact"/>
+                        <Grid container spacing={2}>
+                            <Grid item xs={12} sm={6}>
+                            <TextField
+                                autoComplete="fname"
+                                name="firstName"
+                                variant="outlined"
+                                required
+                                fullWidth
+                                id="firstName"
+                                label="First Name"
+                            />
+                            </Grid>
+                            <Grid item xs={12} sm={6}>
+                            <TextField
+                                variant="outlined"
+                                required
+                                fullWidth
+                                id="lastName"
+                                label="Last Name"
+                                name="lastName"
+                                autoComplete="lname"
+                            />
+                            </Grid>
+                            <Grid item xs={12}>
+                            <TextField
+                                variant="outlined"
+                                required
+                                fullWidth
+                                id="email"
+                                label="Email Address"
+                                name="email"
+                                autoComplete="email"
+                            />
+                            </Grid>
+                            <Grid item xs={12}>
+                            <TextField
+                                variant="outlined"
+                                required
+                                fullWidth
+                                name="message"
+                                label="Message"
+                                type="message"
+                                id="message"
+                                autoComplete="message"
+                            />
+                            </Grid>
                         </Grid>
-                        <Grid item xs={12} sm={6}>
-                        <TextField
-                            variant="outlined"
-                            required
+                        <Button
+                            type="submit"
                             fullWidth
-                            id="lastName"
-                            label="Last Name"
-                            name="lastName"
-                            autoComplete="lname"
-                        />
-                        </Grid>
-                        <Grid item xs={12}>
-                        <TextField
-                            variant="outlined"
-                            required
-                            fullWidth
-                            id="email"
-                            label="Email Address"
-                            name="email"
-                            autoComplete="email"
-                        />
-                        </Grid>
-                        <Grid item xs={12}>
-                        <TextField
-                            variant="outlined"
-                            required
-                            fullWidth
-                            name="message"
-                            label="Message"
-                            type="message"
-                            id="message"
-                            autoComplete="message"
-                        />
-                        </Grid>
-                    </Grid>
-                    <Button
-                        type="submit"
-                        fullWidth
-                        variant="contained"
-                        color="primary"
-                        className={classes.submit}
-                    >
-                        Submit
-                    </Button>
-                    </form>
-                </div>
-            </Container>
+                            variant="contained"
+                            color="primary"
+                            className={classes.submit}
+                        >
+                            Submit
+                        </Button>
+                        </form>
+                    </div>
+                </Container>
+            </div>
 
             {/* <form 
                 method="post"

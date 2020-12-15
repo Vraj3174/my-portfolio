@@ -27,6 +27,10 @@ export default function Contact() {
                         Last Name
                         <input type="text" id="lastName" name="lastName" placeholder="Your Last Name"/>
                     </label>
+                    <label for="email">
+                        E-mail
+                        <input type="text" id="email" name="email" placeholder="Your E-mail"/>
+                    </label>
                     <label for="Message">
                         Message
                         <input type="text" id="message" name="message" placeholder="Enter a Message"/>

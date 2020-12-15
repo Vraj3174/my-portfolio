@@ -9,7 +9,7 @@ export default function Contact() {
             <Header/>
             <form 
                 method="post"
-                name="contact"   
+                name="Contact Me"   
                 data-netlify="true"
                 data-netlify-honeypot="true"
                 netlify

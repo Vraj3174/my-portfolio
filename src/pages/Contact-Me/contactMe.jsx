@@ -34,7 +34,7 @@ export default function Contact() {
                         </label>
                         <label className="name" for="Message">
                             Message
-                            <input type="text" id="message" name="message" placeholder="Enter a Message"/>
+                            <textarea type="text" id="message" name="message" rows="5" placeholder="Enter a Message"/>
                         </label>
 
                         <div className="container">

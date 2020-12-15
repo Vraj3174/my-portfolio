@@ -25,7 +25,7 @@ export default function About() {
                         <Fade bottom cascade>
                             <h3>
                                 I am a Canadian <span className="name">Software Developer</span> who loves all things technology.
-                                from testing and solving hardware issues to applying myself when solving
+                                From testing and solving hardware issues to applying myself when solving
                                 software challenges.
                             <br></br>
                             <br></br>

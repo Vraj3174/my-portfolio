@@ -2,7 +2,7 @@ import React from "react";
 import "./contactMeStyles.scss";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
-import {IoMdContact} from 'react-icons/Io';
+import {FiMail} from 'react-icons/fi';
 
 export default function Contact() {
     return(
@@ -12,7 +12,7 @@ export default function Contact() {
             <div className="container">
                 <div className="container-contact">
                     <div className="container">
-                        <IoMdContact size="15%" className="icon"/>
+                        <FiMail size="15%" className="icon"/>
                         <h1 className="name">Contact Me</h1>
                     </div>
 

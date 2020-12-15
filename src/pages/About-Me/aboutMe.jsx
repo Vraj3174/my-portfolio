@@ -18,40 +18,38 @@ export default function About() {
             <div className="secion" id="about">
                 <div className="container">
                     <div className="about-section">
-                    <div className="content">
-                        <Fade bottom cascade>
-                            <h1><span className="name">Vraj Patel</span></h1>
-                        </Fade>
-                        <Fade bottom cascade>
-                            <h3>
-                                I am a Canadian <span className="name">Software Developer</span> who loves all things technology.
-                                From testing and solving hardware issues to applying myself when solving
-                                software challenges.
-                            <br></br>
-                            <br></br>
-                                I am currently studying at the <span className="name">University of Waterloo</span> to obtain a degree
-                                in <span className="name">Computer Engineering</span>. With a mix of hardware and software this program
-                                will propel my career.
-                            <br></br>
-                            <br></br>
-                                Please contact me for more inquiries:
-                            <br/>
-                            <br/>
-                                <span className="contact"><BsPhone/></span>431-999-3174
-                            <br/>
-                                <span className="contact"><FiMail/></span>vrpatel8725@gmail.com
-                            <br/>
-                                <span className="contact"><FaLinkedin/></span>https://www.linkedin.com/in/vraj-patel-1baa44197
-                            <br/>
-                                <span className="contact"><FaGithub/></span>https://github.com/Vraj3174
-                            </h3>
-                        </Fade>
-                    </div>
-                    <Fade bottom cascade>
+                        <div className="content">
+                            <Fade bottom cascade>
+                                <h1><span className="name">Vraj Patel</span></h1>
+                            </Fade>
+                            <Fade bottom cascade>
+                                <h3>
+                                    I am a Canadian <span className="name">Software Developer</span> who loves all things technology.
+                                    From testing and solving hardware issues to applying myself when solving
+                                    software challenges.
+                                <br></br>
+                                <br></br>
+                                    I am currently studying at the <span className="name">University of Waterloo</span> to obtain a degree
+                                    in <span className="name">Computer Engineering</span>. With a mix of hardware and software this program
+                                    will propel my career.
+                                <br></br>
+                                <br></br>
+                                    Please contact me for more inquiries:
+                                <br/>
+                                <br/>
+                                    <span className="contact"><BsPhone/></span>431-999-3174
+                                <br/>
+                                    <span className="contact"><FiMail/></span>vrpatel8725@gmail.com
+                                <br/>
+                                    <span className="contact"><FaLinkedin/></span>https://www.linkedin.com/in/vraj-patel-1baa44197
+                                <br/>
+                                    <span className="contact"><FaGithub/></span>https://github.com/Vraj3174
+                                </h3>
+                            </Fade>
+                        </div>
                         <div className="image-wrapper">
                             <img className="image" src={VrajPatel} alt="Vraj Patel"></img>
                         </div>
-                    </Fade>
                     </div>
                 </div>
             </div>

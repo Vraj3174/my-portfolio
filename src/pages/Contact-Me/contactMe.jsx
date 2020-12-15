@@ -27,7 +27,7 @@ export default function Contact() {
                     </label>
                 </p> */}
                 <p>
-                    <button type="submit">Send</button>
+                    <button>Send</button>
                 </p>
             </form>
             <Footer/>

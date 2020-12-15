@@ -7,10 +7,12 @@ export default function Contact() {
     return(
         <>
             <Header/>
-            <form method="post"
-                  name="contact"   
-                  data-netlify="true"
-                  data-netlify-honeypot="true"
+            <form 
+                method="post"
+                name="contact"   
+                data-netlify="true"
+                data-netlify-honeypot="true"
+                netlify
             >
                 <p>
                     <label>

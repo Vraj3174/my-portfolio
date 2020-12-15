@@ -11,7 +11,6 @@ export default function Contact() {
                 method="post"
                 name="contact"   
                 data-netlify="true"
-                data-netlify-honeypot="true"
                 onSubmit="submit"
             >
                 <p>

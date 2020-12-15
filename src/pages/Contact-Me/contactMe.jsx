@@ -13,6 +13,7 @@ export default function Contact() {
                 data-netlify="true"
                 onSubmit="submit"
             >
+                <input type="hidden" name="form-name" value="contact"/>
                 <p>
                     <label>
                         Name 

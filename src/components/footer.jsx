@@ -1,6 +1,6 @@
 import React from 'react';
 import "./footerStyles.scss";
-import Resume from "./files/Résumé.pdf";
+import Resume from "../../static/files/Résumé.pdf";
 
 export default function Footer() {
     return (

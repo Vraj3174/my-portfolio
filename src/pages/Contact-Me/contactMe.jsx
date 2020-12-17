@@ -18,11 +18,11 @@ export default function Contact() {
 
                     <form 
                         method="post"
-                        name="contact"   
+                        name="Contact Me"   
                         data-netlify="true"
                         onSubmit="submit"
                     >
-                        <input type="hidden" name="form-name" value="contact"/>
+                        <input type="hidden" name="form-name" value="Contact Me"/>
 
                         <label className="name" for="name">
                             Name

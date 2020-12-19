@@ -3,7 +3,7 @@
     margin-top: 10vh;
     display: flex;
     justify-content: space-between;
-    @media (min-width: 350px){
+    @media (max-width: 400px){
       flex-direction: column-reverse;
     }
     // @include media(">=lgphone", "<tablet") {
@@ -15,7 +15,7 @@
     // }
     .content {
       width: 45%;
-      @media (min-width: 350px){
+      @media (max-width: 400px){
         width: 100%;
       }
       // @include media(">=lgphone", "<tablet") {
@@ -44,7 +44,7 @@
       align-items: center;
       justify-content: center;
       overflow: hidden;
-      @media (min-width: 350px){
+      @media (max-width: 400px){
         width: 100%;
         padding-bottom: 5%;
       }
@@ -78,7 +78,7 @@
       grid-template-columns: repeat(3, 1fr);
       margin-top: 50px;
       grid-gap: 20px;
-      @media (min-width: 350px){
+      @media (max-width: 400px){
         grid-template-columns: 1fr;
       }
       // @include media(">=lgphone", "<tablet") {

@@ -5,7 +5,7 @@ import Footer from "../../components/footer";
 import VrajPatel from "../../../static/images/VrajPatel.png";
 import Fade from "react-reveal/Fade";
 import Typography from '@material-ui/core/Typography';
-import {FaReact, FaGithub, FaNode, FaLinkedin, FaHtml5, FaPython} from 'react-icons/fa';
+import {FaReact, FaGithub, FaNode, FaHtml5, FaPython} from 'react-icons/fa';
 import {BsFileCode, BsPhone} from 'react-icons/bs';
 import {SiVisualstudiocode, SiXcode, SiJavascript, SiMongodb, SiCss3, SiGatsby, SiNextDotJs} from 'react-icons/si';
 import {FiMail} from 'react-icons/fi';
@@ -182,7 +182,6 @@ export default function About() {
                                     </h3>
                                 </div>
                             </Fade>
-                            <br/>
                             <Fade bottom cascade>
                                 <div className="skill"> 
                                     <Typography variant="h1"><span className="icon"><SiXcode/></span></Typography>

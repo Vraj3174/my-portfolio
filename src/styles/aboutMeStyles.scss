@@ -6,36 +6,30 @@
     @media (max-width: 400px){
       flex-direction: column-reverse;
     }
-    // @include media(">=lgphone", "<tablet") {
-    //   flex-direction: column-reverse;
-    // }
-    // @include media(">=tablet", "<desktop") {
-    //   flex-direction: column-reverse;
-    //   align-items: center;
-    // }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
     .content {
       width: 45%;
       @media (max-width: 400px){
         width: 100%;
       }
-      // @include media(">=lgphone", "<tablet") {
-      //   width: 100%;
-      // }
-      // @include media(">=tablet", "<desktop") {
-      //   width: 100%;
-      // }
+      @media (min-width: 768px) and (max-width: 1024px) {
+        width: 100%;
+      }
   
       h1 {
         font-size: 3rem;
         line-height: 20px;
-        // @include media(">=tablet", "<desktop") {
-        //   text-align: center;
-        // }
+        @media (min-width: 768px) and (max-width: 1024px) {
+          text-align: center;
+        }
       }
       p {
-        // @include media(">=tablet", "<desktop") {
-        //   text-align: center;
-        // }
+        @media (min-width: 768px) and (max-width: 1024px) {
+          text-align: center;
+        }
       }
     }
     .image-wrapper {
@@ -48,18 +42,20 @@
         width: 100%;
         padding-bottom: 5%;
       }
-      // @include media(">=lgphone", "<tablet") {
-      //   width: 100%;
-      // }
-      // @include media(">=tablet", "<desktop") {
-      //   width: 100%;
-      // }
+      @media (min-width: 768px) and (max-width: 1024px) {
+        width: 100%;
+        padding-bottom: 5%;
+      }
     }
     .image{
         width: 65%;
         height: 95%;
         border-radius: 15%;
         box-shadow: 5px 10px;
+        @media (min-width: 768px) and (max-width: 1024px) {
+          width: 35%;
+          height: 65%;
+        }
     }
   }
   .skills-container {
@@ -81,12 +77,9 @@
       @media (max-width: 400px){
         grid-template-columns: 1fr;
       }
-      // @include media(">=lgphone", "<tablet") {
-      //   grid-template-columns: 1fr;
-      // }
-      // @include media(">=tablet", "<desktop") {
-      //   grid-template-columns: 1fr 1fr;
-      // }
+      @media (min-width: 768px) and (max-width: 1024px) {
+        grid-template-columns: 1fr 1fr;
+      }
       .skill {
         display: flex;
         flex-direction: column;

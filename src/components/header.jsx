@@ -1,6 +1,6 @@
 import React from 'react';
 //, { useEffect, useState } 
-import "./headerStyles.scss";
+import "../styles/headerStyles.scss";
 // import { makeStyles } from '@material-ui/core/styles';
 // import AppBar from '@material-ui/core/AppBar';
 // import Toolbar from '@material-ui/core/Toolbar';

@@ -3,9 +3,9 @@
     margin-top: 10vh;
     display: flex;
     justify-content: space-between;
-    // @include media(">=phone", "<lgphone") {
-    //   flex-direction: column-reverse;
-    // }
+    @media (min-width: 350px){
+      flex-direction: column-reverse;
+    }
     // @include media(">=lgphone", "<tablet") {
     //   flex-direction: column-reverse;
     // }
@@ -15,15 +15,15 @@
     // }
     .content {
       width: 45%;
-    //   @include media(">=phone", "<lgphone") {
-    //     width: 100%;
-    //   }
-    //   @include media(">=lgphone", "<tablet") {
-    //     width: 100%;
-    //   }
-    //   @include media(">=tablet", "<desktop") {
-    //     width: 100%;
-    //   }
+      @media (min-width: 350px){
+        width: 100%;
+      }
+      // @include media(">=lgphone", "<tablet") {
+      //   width: 100%;
+      // }
+      // @include media(">=tablet", "<desktop") {
+      //   width: 100%;
+      // }
   
       h1 {
         font-size: 3rem;
@@ -44,15 +44,16 @@
       align-items: center;
       justify-content: center;
       overflow: hidden;
-    //   @include media(">=phone", "<lgphone") {
-    //     width: 100%;
-    //   }
-    //   @include media(">=lgphone", "<tablet") {
-    //     width: 100%;
-    //   }
-    //   @include media(">=tablet", "<desktop") {
-    //     width: 100%;
-    //   }
+      @media (min-width: 350px){
+        width: 100%;
+        padding-bottom: 5%;
+      }
+      // @include media(">=lgphone", "<tablet") {
+      //   width: 100%;
+      // }
+      // @include media(">=tablet", "<desktop") {
+      //   width: 100%;
+      // }
     }
     .image{
         width: 65%;
@@ -77,15 +78,15 @@
       grid-template-columns: repeat(3, 1fr);
       margin-top: 50px;
       grid-gap: 20px;
-    //   @include media(">=phone", "<lgphone") {
-    //     grid-template-columns: 1fr;
-    //   }
-    //   @include media(">=lgphone", "<tablet") {
-    //     grid-template-columns: 1fr;
-    //   }
-    //   @include media(">=tablet", "<desktop") {
-    //     grid-template-columns: 1fr 1fr;
-    //   }
+      @media (min-width: 350px){
+        grid-template-columns: 1fr;
+      }
+      // @include media(">=lgphone", "<tablet") {
+      //   grid-template-columns: 1fr;
+      // }
+      // @include media(">=tablet", "<desktop") {
+      //   grid-template-columns: 1fr 1fr;
+      // }
       .skill {
         display: flex;
         flex-direction: column;

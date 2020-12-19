@@ -1,5 +1,5 @@
 import React from "react";
-import "./contactMeStyles.scss";
+import "../../styles/contactMeStyles.scss";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
 import {FiMail} from 'react-icons/fi';

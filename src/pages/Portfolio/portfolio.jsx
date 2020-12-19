@@ -1,5 +1,5 @@
 import React from "react";
-import "./portfolioStyles.scss";
+import "../../styles/portfolioStyles.scss";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
 import TTC from "../../../static/images/TTC.png";
@@ -32,7 +32,7 @@ export default function Projects() {
                     <div className="container">
                         <div className="skills-container">
                             <Fade bottom cascade>
-                                <h1>Work Experiences</h1>
+                                <h1>Experiences</h1>
                             </Fade>
                             <Fade bottom cascade>
                                 <div className="skills-grid">

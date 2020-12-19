@@ -1,5 +1,5 @@
 import React from 'react';
-import "./footerStyles.scss";
+import "../styles/footerStyles.scss";
 import Resume from "../../static/files/Résumé.pdf";
 
 export default function Footer() {

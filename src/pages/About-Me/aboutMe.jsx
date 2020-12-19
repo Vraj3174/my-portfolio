@@ -1,5 +1,5 @@
 import React from "react";
-import "./aboutMeStyles.scss";
+import "../../styles/aboutMeStyles.scss";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
 import VrajPatel from "../../../static/images/VrajPatel.png";
@@ -27,24 +27,25 @@ export default function About() {
                                     I am a Canadian <span className="name">Software Developer</span> who loves all things technology.
                                     From testing and solving hardware issues to applying myself when solving
                                     software challenges.
-                                <br></br>
-                                <br></br>
+                                    <br></br>
+                                    <br></br>
                                     I am currently studying at the <span className="name">University of Waterloo</span> to obtain a degree
                                     in <span className="name">Computer Engineering</span>. With a mix of hardware and software this program
                                     will propel my career.
-                                <br></br>
-                                <br></br>
+                                    <br></br>
+                                    <br></br>
                                     Please contact me for more inquiries:
-                                <br/>
-                                <br/>
-                                    <span className="contact"><BsPhone/></span>431-999-3174
-                                <br/>
-                                    <span className="contact"><FiMail/></span>vrpatel8725@gmail.com
-                                <br/>
-                                    <span className="contact"><FaLinkedin/></span>https://www.linkedin.com/in/vraj-patel-1baa44197
-                                <br/>
-                                    <span className="contact"><FaGithub/></span>https://github.com/Vraj3174
+                                    <br/>
+                                    <br/>
                                 </h3>
+                                <h4>
+                                    <span className="contact"><BsPhone/></span>431-999-3174
+                                    <br/>
+                                    <span className="contact"><FiMail/></span>vrpatel8725@gmail.com
+                                    <br/>
+                                    <span className="contact"><FaGithub/></span>https://github.com/Vraj3174
+                                </h4>
+
                             </Fade>
                         </div>
                         <div className="image-wrapper">
@@ -56,7 +57,7 @@ export default function About() {
             <div className="section">
                 <div className="container">
                     <div className="skills-container">
-                        <h1>Programming Languages</h1>
+                        <h1>Languages</h1>
                         <div className="skills-grid">
                             <Fade bottom cascade>
                                 <div className="skill"> 
@@ -116,7 +117,7 @@ export default function About() {
             <div className="section">
                 <div className="container">
                     <div className="skills-container">
-                        <h1>Frameworks and Libraries</h1>
+                        <h1>Frameworks</h1>
                         <div className="skills-grid">
                             <Fade bottom cascade>
                                 <div className="skill"> 

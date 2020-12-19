@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.scss";
+import "../../styles/styles.scss";
 import backgroundVideo from "../../../static/videos/homepage-background.mp4";
 import { makeStyles } from '@material-ui/core/styles';
 import Helmet from 'react-helmet';

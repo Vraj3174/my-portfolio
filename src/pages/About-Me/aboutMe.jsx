@@ -23,7 +23,7 @@ export default function About() {
                                 <h1><span className="name">Vraj Patel</span></h1>
                             </Fade>
                             <Fade bottom cascade>
-                                <h3>
+                                <Typography fontWeight="fontWeightBold" variant="h6" component="h6">
                                     I am a Canadian <span className="name">Software Developer</span> who loves all things technology.
                                     From testing and solving hardware issues to applying myself when solving
                                     software challenges.
@@ -37,15 +37,14 @@ export default function About() {
                                     Please contact me for more inquiries:
                                     <br/>
                                     <br/>
-                                </h3>
-                                <h4>
+                                </Typography>
+                                <Typography fontWeight="fontWeightBold" variant="h7" component="h7">
                                     <span className="contact"><BsPhone/></span>431-999-3174
                                     <br/>
                                     <span className="contact"><FiMail/></span>vrpatel8725@gmail.com
                                     <br/>
                                     <span className="contact"><FaGithub/></span>https://github.com/Vraj3174
-                                </h4>
-
+                                </Typography>
                             </Fade>
                         </div>
                         <div className="image-wrapper">

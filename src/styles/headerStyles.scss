@@ -41,6 +41,22 @@
     padding: 0;
     overflow: hidden;
     background-color: rgb(51, 51, 53);
+    @media (min-width: 500px){
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 15%;
+    }
+}
+
+.largeMenu {
+    background-color: rgb(51, 51, 53);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
 }
 
 .li-left {

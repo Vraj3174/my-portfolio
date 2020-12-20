@@ -32,7 +32,9 @@ export default function Projects() {
                     <div className="container">
                         <div className="skills-container">
                             <Fade bottom cascade>
-                                <h1>Experiences</h1>
+                                <Typography fontWeight="fontWeightBold" variant="h1" component="h1">
+                                            Experiences
+                                </Typography>
                             </Fade>
                             <Fade bottom cascade>
                                 <div className="skills-grid">
@@ -114,7 +116,9 @@ export default function Projects() {
                     <div className="container">
                         <div className="skills-container">
                             <Fade bottom cascade>
-                                <h1>Projects</h1>
+                                <Typography fontWeight="fontWeightBold" variant="h1" component="h1">
+                                    Projects
+                                </Typography>
                             </Fade>
                             <Fade bottom cascade>
                                 <div className="skills-grid">

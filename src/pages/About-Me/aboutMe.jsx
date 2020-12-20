@@ -57,57 +57,59 @@ export default function About() {
             <div className="section">
                 <div className="container">
                     <div className="skills-container">
-                        <h1>Languages</h1>
+                        <Typography fontWeight="fontWeightBold" variant="h1" component="h1">
+                            Languages
+                        </Typography>
                         <div className="skills-grid">
                             <Fade bottom cascade>
                                 <div className="skill"> 
                                     <Typography variant="h1"><span className="icon"><FaReact/></span></Typography>
-                                    <h3>
+                                    <Typography fontWeight="fontWeightBold" variant="h6" component="h6">
                                         Expeirenced using ReactJs and ReactJs frameworks
                                         in a development environment.
-                                    </h3>
+                                    </Typography>
                                 </div>
                             </Fade>
                             <Fade bottom cascade>
                                 <div className="skill"> 
                                     <Typography variant="h1"><span className="icon"><BsFileCode/></span></Typography>
-                                    <h3>
+                                    <Typography fontWeight="fontWeightBold" variant="h6" component="h6">
                                         Academic Expeirence using C++ to solve problems
                                         and implement various algorithms.
-                                    </h3>
+                                    </Typography>
                                 </div>
                             </Fade>
                             <Fade bottom cascade>
                                 <div className="skill"> 
                                     <Typography variant="h1"><span className="icon"><SiJavascript/></span></Typography>
-                                    <h3>
+                                    <Typography fontWeight="fontWeightBold" variant="h6" component="h6">
                                         Implemented various javascript functions to handle data 
                                         and build web applications. 
-                                    </h3>
+                                    </Typography>
                                 </div>
                             </Fade>
                             <Fade bottom cascade>
                                 <div className="skill"> 
                                     <Typography variant="h1"><span className="icon"><FaHtml5/></span></Typography>
-                                    <h3>
+                                    <Typography fontWeight="fontWeightBold" variant="h6" component="h6">
                                         Development expeirence using HTML to create websites. 
-                                    </h3>
+                                    </Typography>
                                 </div>
                             </Fade>
                             <Fade bottom cascade>
                                 <div className="skill"> 
                                     <Typography variant="h1"><span className="icon"><SiCss3/></span></Typography>
-                                    <h3>
+                                    <Typography fontWeight="fontWeightBold" variant="h6" component="h6">
                                         implemented design elements and properties to websites using CSS.
-                                    </h3>
+                                    </Typography>
                                 </div>
                             </Fade>
                             <Fade bottom cascade>
                                 <div className="skill"> 
                                     <Typography variant="h1"><span className="icon"><FaPython/></span></Typography>
-                                    <h3>
+                                    <Typography fontWeight="fontWeightBold" variant="h6" component="h6">
                                         Basic academic expeirence with Python crerating simple projects.
-                                    </h3>
+                                    </Typography>
                                 </div>
                             </Fade>
                         </div>
@@ -117,33 +119,35 @@ export default function About() {
             <div className="section">
                 <div className="container">
                     <div className="skills-container">
-                        <h1>Frameworks</h1>
+                        <Typography fontWeight="fontWeightBold" variant="h1" component="h1">
+                            Frameworks
+                        </Typography>
                         <div className="skills-grid">
                             <Fade bottom cascade>
                                 <div className="skill"> 
                                     <Typography variant="h1"><span className="icon"><FaNode/></span></Typography>
-                                    <h3>
+                                    <Typography fontWeight="fontWeightBold" variant="h6" component="h6">
                                         Develped numerous web applications with
                                         C.R.U.D. functionality usign NodeJs
-                                    </h3>
+                                    </Typography>
                                 </div>
                             </Fade>
                             <Fade bottom cascade>
                                 <div className="skill"> 
                                     <Typography variant="h1"><span className="icon"><SiGatsby/></span></Typography>
-                                    <h3>
+                                    <Typography fontWeight="fontWeightBold" variant="h6" component="h6">
                                         Created beautiful websites using GatsbyJs. 
                                         Look at this site as an example!
-                                    </h3>
+                                    </Typography>
                                 </div>
                             </Fade>
                             <Fade bottom cascade>
                                 <div className="skill"> 
                                     <Typography variant="h1"><span className="icon"><SiNextDotJs/></span></Typography>
-                                    <h3>
+                                    <Typography fontWeight="fontWeightBold" variant="h6" component="h6">
                                         Developed a web applications with C.R.U.D. functionality
                                         with Mongodb.
-                                    </h3>
+                                    </Typography>
                                 </div>
                             </Fade>
                         </div>
@@ -153,42 +157,44 @@ export default function About() {
             <div className="section">
                 <div className="container">
                     <div className="skills-container">
-                        <h1>DevOps</h1>
+                        <Typography fontWeight="fontWeightBold" variant="h1" component="h1">
+                            DevOps
+                        </Typography>
                         <div className="skills-grid">
                             <Fade bottom cascade>
                                 <div className="skill"> 
                                     <Typography variant="h1"><span className="icon"><FaGithub/></span></Typography>
-                                    <h3>
+                                    <Typography fontWeight="fontWeightBold" variant="h6" component="h6">
                                         Experience using Github for version control
                                         and collaboration on projects.
-                                    </h3>
+                                    </Typography>
                                 </div>
                             </Fade>
                             <Fade bottom cascade>
                                 <div className="skill"> 
                                     <Typography variant="h1"><span className="icon"><SiMongodb/></span></Typography>
-                                    <h3>
+                                    <Typography fontWeight="fontWeightBold" variant="h6" component="h6">
                                         Impelemented data storage features using Mongodb
                                         in various web applications.
-                                    </h3>
+                                    </Typography>
                                 </div>
                             </Fade>
                             <Fade bottom cascade>
                                 <div className="skill"> 
                                     <Typography variant="h1"><span className="icon"><SiVisualstudiocode/></span></Typography>
-                                    <h3>
+                                    <Typography fontWeight="fontWeightBold" variant="h6" component="h6">
                                         Development Experience using
                                         Visual Studio Code.
-                                    </h3>
+                                    </Typography>
                                 </div>
                             </Fade>
                             <Fade bottom cascade>
                                 <div className="skill"> 
                                     <Typography variant="h1"><span className="icon"><SiXcode/></span></Typography>
-                                    <h3>
+                                    <Typography fontWeight="fontWeightBold" variant="h6" component="h6">
                                         Development Experience using
                                         Xcode and a macOS development environment.
-                                    </h3>
+                                    </Typography>
                                 </div>
                             </Fade>
                         </div>

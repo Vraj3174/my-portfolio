@@ -14,6 +14,12 @@ input[type=text], select, textarea {
     padding: 20px;
     background-color: rgb(51, 51, 53);
     width: 25%;
+    @media (max-width: 420px){
+      width: 70%;
+    }
+    @media (min-width: 420px) and (max-width: 1024px) {
+      width: 40%;
+    }
   }
 
   .submit{

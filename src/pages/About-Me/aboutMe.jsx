@@ -38,6 +38,8 @@ export default function About() {
                                     <br/>
                                     <br/>
                                 </Typography>
+                            </Fade>
+                            <Fade bottom cascade>
                                 <Typography fontWeight="fontWeightBold" variant="h7" component="h7">
                                     <span className="contact"><BsPhone/></span>431-999-3174
                                     <br/>

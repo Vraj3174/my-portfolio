@@ -56,7 +56,7 @@ export default function Projects() {
                                         <Typography variant="body2" color="textSecondary" component="p">
                                             Managed server inventory and service desk tasks.
                                             Organized the redesign of an internal directory.
-                                            Created an auto mated report using JasperSoft.
+                                            Created an automated report using JasperSoft.
                                         </Typography>
                                         </CardContent>
                                     </Card>
@@ -76,8 +76,8 @@ export default function Projects() {
                                             Web Developer
                                         </Typography>
                                         <Typography variant="body2" color="textSecondary" component="p">
-                                            Developed many features such as: an FAQ page,
-                                            Google analytics, various drop down menus, Facebook 
+                                            Developed many features such as an FAQ page,
+                                            Google Analytics, various drop-down menus, Facebook 
                                             Messenger Chat Plugin and other front end details.
                                         </Typography>
                                         </CardContent>
@@ -95,12 +95,12 @@ export default function Projects() {
                                             The University of Waterloo
                                         </Typography>
                                         <Typography variant="body2" color="textSecondary" component="p">
-                                            Online Learning Assisstant
+                                            Online Learning Assistant
                                         </Typography>
                                         <Typography variant="body2" color="textSecondary" component="p">
                                             Created exercises for the Rust programming language.
-                                            Assisted in the design of an mentor and mentee matching
-                                            algorithm. Designed instrustions for LTSPICE(circuit drafting software).
+                                            Assisted in the design of a mentor and mentee matching algorithm. 
+                                            Designed instructions for LTSPICE(circuit drafting software).
                                         </Typography>
                                         </CardContent>
                                     </Card>
@@ -135,10 +135,10 @@ export default function Projects() {
                                             Celavent
                                         </Typography>
                                         <Typography variant="body2" color="textSecondary" component="p">
-                                            Celavent is a web application which allows the user to post event that they
-                                            are hosting for vendors to contact and bid for. For example if one
+                                            Celavent is a web application that allows the user to post events that
+                                            they are hosting for vendors to contact and bid for. For example, if one
                                             is hosting a party they can post it on Celavent, then vendors will offer 
-                                            services such as, photograph and entertainment. 
+                                            services such as photograph and entertainment. 
                                         </Typography>
                                         </CardContent>
                                     </Card>
@@ -155,9 +155,9 @@ export default function Projects() {
                                             The Notes App
                                         </Typography>
                                         <Typography variant="body2" color="textSecondary" component="p">
-                                            A notes app preforms user authentication and stores notes created by the
-                                            user to a mOngodb database. This application can preform basic C.R.U.D. functionality
-                                            using NEXTjs.
+                                            A notes app performs user authentication and stores notes created by the 
+                                            user to a MongoDB database. This application can perform basic C.R.U.D. 
+                                            functionality using NEXTjs.
                                         </Typography>
                                         </CardContent>
                                     </Card>
@@ -174,8 +174,8 @@ export default function Projects() {
                                             The Contacts App
                                         </Typography>
                                         <Typography variant="body2" color="textSecondary" component="p">
-                                            A web application which uses Node Js and Mongodb to preform basic C.R.U.D. fnctions
-                                            aloowing the user store contacts. 
+                                            A web application that uses Node Js and MongoDB to perform basic C.R.U.D. 
+                                            functions allowing users to store contacts. 
                                         </Typography>
                                         </CardContent>
                                     </Card>

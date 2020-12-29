@@ -32,7 +32,7 @@ export default function Home() {
                                 Hello, I'm <span className="name">Vraj Patel</span>,
                             </h1>
                             <h1>
-                                Software Developer
+                                a Software Developer
                             </h1>
                             <div className={classes.root}>
                                 <form>

@@ -29,9 +29,9 @@ export default function About() {
                                     software challenges.
                                     <br></br>
                                     <br></br>
-                                    I am currently studying at the <span className="name">University of Waterloo</span> to obtain a degree
+                                    I am currently studying at the <span className="name">University of Waterloo</span> studying to obtain a degree
                                     in <span className="name">Computer Engineering</span>. With a mix of hardware and software this program
-                                    will propel my career.
+                                    will help propel my career.
                                     <br></br>
                                     <br></br>
                                     Please contact me for more inquiries:
@@ -66,7 +66,7 @@ export default function About() {
                                 <div className="skill"> 
                                     <Typography variant="h1"><span className="icon"><FaReact/></span></Typography>
                                     <Typography fontWeight="fontWeightBold" variant="h6" component="h6">
-                                        Expeirenced using ReactJs and ReactJs frameworks
+                                        Experienced using ReactJs and ReactJs frameworks
                                         in a development environment.
                                     </Typography>
                                 </div>
@@ -75,7 +75,7 @@ export default function About() {
                                 <div className="skill"> 
                                     <Typography variant="h1"><span className="icon"><BsFileCode/></span></Typography>
                                     <Typography fontWeight="fontWeightBold" variant="h6" component="h6">
-                                        Academic Expeirence using C++ to solve problems
+                                        Academic experience using C++ to solve problems
                                         and implement various algorithms.
                                     </Typography>
                                 </div>
@@ -93,7 +93,7 @@ export default function About() {
                                 <div className="skill"> 
                                     <Typography variant="h1"><span className="icon"><FaHtml5/></span></Typography>
                                     <Typography fontWeight="fontWeightBold" variant="h6" component="h6">
-                                        Development expeirence using HTML to create websites. 
+                                        Development experience using HTML to create websites. 
                                     </Typography>
                                 </div>
                             </Fade>
@@ -101,7 +101,7 @@ export default function About() {
                                 <div className="skill"> 
                                     <Typography variant="h1"><span className="icon"><SiCss3/></span></Typography>
                                     <Typography fontWeight="fontWeightBold" variant="h6" component="h6">
-                                        implemented design elements and properties to websites using CSS.
+                                        Implemented design elements and properties to websites using CSS.
                                     </Typography>
                                 </div>
                             </Fade>
@@ -109,7 +109,7 @@ export default function About() {
                                 <div className="skill"> 
                                     <Typography variant="h1"><span className="icon"><FaPython/></span></Typography>
                                     <Typography fontWeight="fontWeightBold" variant="h6" component="h6">
-                                        Basic academic expeirence with Python crerating simple projects.
+                                        Basic academic experience with Python creating simple projects.
                                     </Typography>
                                 </div>
                             </Fade>
@@ -128,8 +128,8 @@ export default function About() {
                                 <div className="skill"> 
                                     <Typography variant="h1"><span className="icon"><FaNode/></span></Typography>
                                     <Typography fontWeight="fontWeightBold" variant="h6" component="h6">
-                                        Develped numerous web applications with
-                                        C.R.U.D. functionality usign NodeJs
+                                        Developed numerous web applications with
+                                        C.R.U.D. functionality using NodeJs
                                     </Typography>
                                 </div>
                             </Fade>
@@ -146,8 +146,8 @@ export default function About() {
                                 <div className="skill"> 
                                     <Typography variant="h1"><span className="icon"><SiNextDotJs/></span></Typography>
                                     <Typography fontWeight="fontWeightBold" variant="h6" component="h6">
-                                        Developed a web applications with C.R.U.D. functionality
-                                        with Mongodb.
+                                        Developed a web application with C.R.U.D. functionality
+                                        using MongoDB.
                                     </Typography>
                                 </div>
                             </Fade>
@@ -175,7 +175,7 @@ export default function About() {
                                 <div className="skill"> 
                                     <Typography variant="h1"><span className="icon"><SiMongodb/></span></Typography>
                                     <Typography fontWeight="fontWeightBold" variant="h6" component="h6">
-                                        Impelemented data storage features using Mongodb
+                                        Implemented data storage features using MongoDB
                                         in various web applications.
                                     </Typography>
                                 </div>

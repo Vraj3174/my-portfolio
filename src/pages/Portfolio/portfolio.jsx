@@ -8,6 +8,8 @@ import Waterloo from "../../../static/images/UniversityOfWaterloo.jpg"
 import Celavent from "../../../static/images/Celavent.png";
 import theNotesApp from "../../../static/images/theNotesApp.jpeg"
 import Contacts from "../../../static/images/Contacts.png";
+import ATM from "../../../static/images/ATM.png";
+import TikTakToe from "../../../static/images/TikTakToe.png"
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
@@ -145,6 +147,43 @@ export default function Projects() {
                                     <Card className={classes.root}>
                                         <CardMedia
                                         component="img"
+                                        alt="ATM"
+                                        height="140"
+                                        image={ATM}
+                                        title="ATM"
+                                        />
+                                        <CardContent>
+                                        <Typography gutterBottom variant="h5" component="h2">
+                                            ATM
+                                        </Typography>
+                                        <Typography variant="body2" color="textSecondary" component="p">
+                                            A simple C++ program that allows users to open accounts where they can store, 
+                                            withdraw,and view account balance. The program stores data in a text file to
+                                            use at a later time.
+                                        </Typography>
+                                        </CardContent>
+                                    </Card>
+                                    <Card className={classes.root}>
+                                        <CardMedia
+                                        component="img"
+                                        alt="The Contacts App"
+                                        height="140"
+                                        image={Contacts}
+                                        title="The Contacts App"
+                                        />
+                                        <CardContent>
+                                        <Typography gutterBottom variant="h5" component="h2">
+                                            The Contacts App
+                                        </Typography>
+                                        <Typography variant="body2" color="textSecondary" component="p">
+                                            A web application that uses Node Js and MongoDB to perform basic C.R.U.D. 
+                                            functions allowing users to store contacts. 
+                                        </Typography>
+                                        </CardContent>
+                                    </Card>
+                                    <Card className={classes.root}>
+                                        <CardMedia
+                                        component="img"
                                         alt="the Notes App"
                                         height="140"
                                         image={theNotesApp}
@@ -164,18 +203,17 @@ export default function Projects() {
                                     <Card className={classes.root}>
                                         <CardMedia
                                         component="img"
-                                        alt="The Contacts App"
+                                        alt="Tik-Tak-Toe"
                                         height="140"
-                                        image={Contacts}
-                                        title="The Contacts App"
+                                        image={TikTakToe}
+                                        title="Tik-Tak-Toe"
                                         />
                                         <CardContent>
                                         <Typography gutterBottom variant="h5" component="h2">
-                                            The Contacts App
+                                            Tik-Tak-Toe
                                         </Typography>
                                         <Typography variant="body2" color="textSecondary" component="p">
-                                            A web application that uses Node Js and MongoDB to perform basic C.R.U.D. 
-                                            functions allowing users to store contacts. 
+                                            A simple 2 player Tik-Tak-Toe game created using C++.
                                         </Typography>
                                         </CardContent>
                                     </Card>

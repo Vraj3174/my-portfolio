@@ -9,7 +9,7 @@ import Celavent from "../../../static/images/Celavent.png";
 import theNotesApp from "../../../static/images/theNotesApp.jpeg"
 import Contacts from "../../../static/images/Contacts.png";
 import ATM from "../../../static/images/ATM.png";
-import TikTakToe from "../../../static/images/TikTakToe.png"
+import TicTakToe from "../../../static/images/TicTakToe.png"
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
@@ -203,17 +203,17 @@ export default function Projects() {
                                     <Card className={classes.root}>
                                         <CardMedia
                                         component="img"
-                                        alt="Tik-Tak-Toe"
+                                        alt="Tic-Tak-Toe"
                                         height="140"
-                                        image={TikTakToe}
-                                        title="Tik-Tak-Toe"
+                                        image={TicTakToe}
+                                        title="Tic-Tak-Toe"
                                         />
                                         <CardContent>
                                         <Typography gutterBottom variant="h5" component="h2">
-                                            Tik-Tak-Toe
+                                            Tic-Tak-Toe
                                         </Typography>
                                         <Typography variant="body2" color="textSecondary" component="p">
-                                            A simple 2 player Tik-Tak-Toe game created using C++.
+                                            A simple 2 player Tic-Tak-Toe game created using C++.
                                         </Typography>
                                         </CardContent>
                                     </Card>

@@ -159,7 +159,7 @@ export default function About() {
                 <div className="container">
                     <div className="skills-container">
                         <Typography fontWeight="fontWeightBold" variant="h1" component="h1">
-                            CI/CD and Other Tools
+                            Other Tools
                         </Typography>
                         <div className="skills-grid">
                             <Fade bottom cascade>

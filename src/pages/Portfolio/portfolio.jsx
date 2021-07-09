@@ -75,7 +75,7 @@ export default function Projects() {
                                             SuperWorld
                                         </Typography>
                                         <Typography variant="body2" color="textSecondary" component="p">
-                                            Web Developer
+                                            Software Developer
                                         </Typography>
                                         <Typography variant="body2" color="textSecondary" component="p">
                                             Developed many features such as an FAQ page,
